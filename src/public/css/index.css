@@ -1,0 +1,111 @@
+:root{
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+ul{
+    list-style-type: none
+}
+
+#productInfo{
+    display: flex;
+    flex-direction: row;
+}
+
+#productCard{
+    margin-top: 2rem;
+    border: 5px solid black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    margin: auto;
+}
+
+table, th, td {
+    border: 2px solid rgb(49, 46, 46);
+    border-collapse: collapse;
+    padding: 0.5rem;
+  }
+
+main{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#logFormCard{
+    margin: auto;
+    width: 450px;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#logFormCard > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    border: 1xp solid red;
+}
+
+
+#registerFormCard{
+    margin: auto;
+    width: 450px;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#registerFormCard > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    border: 1xp solid red;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-evenly
+}
+
+#logRegister{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start
+}

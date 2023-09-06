@@ -1,0 +1,43 @@
+<main>
+    <header>
+        <div>
+            <div>Bienvenido {{user}}!!!</div>
+            <a href="./profile">Perfil</a>
+        </div>
+        
+        <a href="./sessions/logout"><button>Cerrar Sesion</button></a>
+    </header>
+    <h1>Lista de Productos</h1>
+    <div>
+        <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Description</th>
+            <th>Category</th>
+            <th>Precio</th>
+            <th>Detalles</th>
+            <th></th>
+        </tr>
+        {{#each productListJSON.docs}}
+            <tr>
+                <td>{{this.title}}</td>
+                <td>{{this.description}}</td>
+                <td>{{this.category}}</td>
+                <td>${{this.price}}</td>
+                <td><a href="/products/{{id}}">Detalles</a></td>
+                <td><Button>Add To Cart</Button></td>
+            </tr>
+        {{/each}}    
+        </table>
+        <div id="page">
+            {{#if productListJSON.hasPrevPage}}
+            <a href={{productListJSON.prevLink}}> <-Pagina Anterior</a>
+            {{/if}}
+            <span>Pagina {{productListJSON.page}}</span>
+            {{#if productListJSON.hasNextPage}}
+            <a href={{productListJSON.nextLink}}>Pagina siguiente-></a>
+            {{/if}}
+        </div>    
+    </div>
+</main>
+<script src="/js/index.js"></script>

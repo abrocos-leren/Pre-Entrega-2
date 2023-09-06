@@ -1,0 +1,44 @@
+[
+    {
+      "id": "fa6fd91c-76c4-42f7-a458-84fece1cab91",
+      "title": "Vino Cabernet Sauvignon",
+      "description": "Es una de las variedades de uva tinta más conocidas y cultivadas en todo el mundo. Suele producir vinos con sabores a grosellas negras, ciruelas, cassis y notas a tabaco y cedro. Son vinos con buen cuerpo y estructura, y pueden mejorar con el envejecimiento.",
+      "code": "vt01",
+      "price": 2200
+    },
+    {
+      "id": "4a2c7888-2657-46a1-9859-34f4c988b45f",
+      "title": "Vino Merlot",
+      "description": "La uva Merlot produce vinos más suaves y menos tánicos que el Cabernet Sauvignon. Sus sabores incluyen frutas rojas maduras, ciruelas, bayas y a menudo tienen un toque de chocolate o vainilla. También pueden ser aptos para el envejecimiento.",
+      "code": "vt02",
+      "price": 1900
+    },
+    {
+      "id": "e6215f28-40af-40db-9a1c-ca0b622a26c1",
+      "title": "Vino Pinot Noir",
+      "description": " Es una variedad conocida por su delicadeza y elegancia. Los vinos Pinot Noir presentan sabores de frutas rojas frescas, como cerezas y fresas, y pueden tener notas terrosas y especiadas. Son más ligeros en cuerpo y taninos que el Cabernet Sauvignon y el Merlot.",
+      "code": "vt03",
+      "price": 2450
+    },
+    {
+      "id": "95814191-b675-4f2b-99c7-3922e3ce3b83",
+      "title": "Vino Syrah",
+      "description": " Produce vinos de gran cuerpo y sabor intenso. Pueden tener notas a moras, pimienta negra, especias y cuero. Los Syrah de diferentes regiones pueden variar en estilo, desde vinos más suaves y afrutados hasta vinos más intensos y tánicos.",
+      "code": "vt04",
+      "price": 2700
+    },
+    {
+      "id": "ea8df5bb-38a9-42ce-b879-093fd7c92bfe",
+      "title": "Vino Malbec",
+      "description": "  Es una variedad que ha ganado popularidad en Argentina, donde produce vinos de cuerpo medio a completo con sabores a frutas negras maduras, ciruelas, notas florales y especiadas. Los Malbec argentinos suelen ser suaves y aterciopelados.",
+      "code": "vt05",
+      "price": 1800
+    },
+    {
+      "id": "89736769-1a18-46e0-897c-83df5ff9a91d",
+      "title": "Vino Tempranillo",
+      "description": " Esta uva es común en España y se utiliza para producir vinos tintos como Rioja y Ribera del Duero. Los vinos Tempranillo pueden tener sabores a frutas rojas y negras, cuero, vainilla y especias. Pueden variar en estilo dependiendo de la región y el tiempo de crianza en barricas de roble.",
+      "code": "vt06",
+      "price": 2000
+    }
+  ]
